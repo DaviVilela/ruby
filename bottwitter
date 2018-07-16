@@ -1,4 +1,4 @@
-#Este é para criar um bot no Twitter em que ao executar ele irá twittar a mensagem escolhida por você no código.
+#Este código é para criar um bot no Twitter em que ao executar ele irá twittar a mensagem escolhida por você no código.
 
 require 'twitter'
 client = Twitter::REST::Client.new do |config|
