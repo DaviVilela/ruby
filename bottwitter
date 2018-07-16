@@ -1,0 +1,15 @@
+#Este é para criar um bot no Twitter em que ao executar ele irá twittar a mensagem escolhida por você no código.
+
+require 'twitter'
+client = Twitter::REST::Client.new do |config|
+config.consumer_key = " "
+#Cole acima entre as aspas seu código consumer_key do Twitter
+config.consumer_secret = " "
+#Cole acima entre as aspas seu código consumer_key do Twitter
+config.access_token = " "
+#Cole acima entre as aspas seu código acess_token do Twitter
+config.access_token_secret = "uKLmXr7b68Fna5V9LeLdVuBDTJy5vENjtQriuQyn1Fwnc"
+#Cole acima entre as aspas seu código acess_token_secret do Twitter
+end
+client.update(" ")
+#Escreva dentro das aspas acima a mensagem que deseja que  seja tuitada
